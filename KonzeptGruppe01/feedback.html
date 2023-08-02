@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="Container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.svg" alt="Triervelers logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="Destination.html">Destinations</a></li>
+            <li><a href="sight.html">Sights</a></li>
+            <li><a href="Restaurants.html">Restaurants</a></li>
+            <div class="dropdown">
+            <li><a href="" class="dropbtn">AboutUs</a>
+                <ul class="dropdown-content">
+                    <li><a href="AboutUs.html" >Our Company</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Give a feedback</a></li>
+                  </ul>
+            </li>
+            </div>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class = "text-block">
+    <h1>Your feedback is important!</h1>
+    <div class="text">
+    <h5>How would you rate our company? </h5>
+    <h5>Do you have any questions?</h5>
+    </div>
+    <form action="contact.php" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="title">Reason For Contacting Us</label>
+          <input type="text" id="title" name="email_title" required placeholder="Question about prices" pattern=[A-Za-z0-9\s]{8,60}>
+        </div>
+        <div class="elem-group">
+          <label for="message">Write your message</label>
+          <textarea id="message" name="visitor_message" placeholder="Say whatever you want" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+</main>
+<footer>
+  <p>&copy; 2023 Triervelers. Alle Rechte vorbehalten. &emsp; <a href = impressum.html style="color: white">  Impressum</a>  &emsp; <a href= datenschutzt.html style="color: white">  Datenschutzt</a></p>
+</footer>
+</body>
+</html>

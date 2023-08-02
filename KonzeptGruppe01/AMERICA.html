@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sight</title>
+    <link rel="stylesheet" href="Style.css">
+
+</head>
+<body>
+
+<header>
+    <nav class="Container">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.svg" alt="Triervelers logo">
+            </a>
+        </div>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Destination.html">Destinations</a></li>
+            <li><a href="Sight.html">Sights</a></li>
+            <li><a href="Restaurants.html">Restaurants</a></li>
+            <li><a href="aboutus.html">AboutUs</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="sight">
+
+        <h2 >North  America</h2>
+
+        <div class="sight-section">
+            <ol class="city-ol">
+                <li>Canada </li>
+                <li>USA </li>
+
+            </ol>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="America/1.JPG" style="width:100%">
+                <div class="text">Canada</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="America/2.JPG" style="width:100%">
+                <div class="text">USA </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="America/3.JPG" style="width:100%">
+                <div class="text"> USA </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2023 Triervelers. Alle Rechte vorbehalten. &emsp; <a href = impressum.html style="color: white">  Impressum</a>  &emsp; <a href= datenschutzt.html style="color: white">  Datenschutzt</a></p>
+  </footer>
+</body>
+<script src="funktion.js"></script>
+
+</html>
