@@ -288,19 +288,17 @@ span{
 
 .mySlides,img {
     vertical-align: middle;
-    height: 600px;
-    border-radius: 30%;
-
-
-
+    height: 450px;
+    border-radius: 50%;
+    padding-bottom: 20px;
 }
+
 /* Slideshow container */
 .slideshow-container {
-    width: 500px;
+    width: 450px;
     max-width: 1000px;
     position: relative;
     margin: auto;
-
 }
 
 .city-ol li a{
