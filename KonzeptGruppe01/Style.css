@@ -916,7 +916,7 @@ footer {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 100px;
+        min-width: 50px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
@@ -931,10 +931,10 @@ footer {
       }
       
       
-      .dropdown-content a:hover {background-color: #ddd;}
+      .dropdown-content a:hover {background-color: #ddd; }
       
       
-      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropdown-content {display: block; }
       
      
       .dropdown:hover .dropbtn {background-color: #c3dfdf; transform: scale(1.9);}
