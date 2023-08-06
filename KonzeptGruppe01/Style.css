@@ -318,13 +318,6 @@ span{
     transition: all 0.3s ease;
 }
 
-.city-ol li:hover {
-    color:black;
-    background-color: #7A9F7A;
-    text-align: center;
-    white-space: nowrap;
-    transform: scale(1.7);
-}
 
 .prev, .next {
     cursor: pointer;
