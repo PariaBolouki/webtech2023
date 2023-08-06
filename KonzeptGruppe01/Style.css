@@ -40,6 +40,12 @@ nav ul li a:hover {
     transform: scale(1.9);
 }
 
+.homeButton:hover{
+    color: black;
+    background-color: #7A9F7A;
+    transform: scale(1.9);
+}
+
 header .logo img {
     width: 100px;
     height: 100px;
