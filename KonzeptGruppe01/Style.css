@@ -8,9 +8,24 @@ body {
 .Container {
     background-color: #424242;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
+}
+
+.toggle-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 
@@ -56,27 +71,60 @@ header .logo img {
 
 /* Responsive */
 /*_________________________________________________________________________________________ */
-@media screen and (max-width: 768px) {
-    nav ul {
+@media screen and (max-width: 1400px) {
+    .toggle-button {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
+        margin-right: 20px;
     }
 
-    nav ul li {
-        margin-right: 0;
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        position: absolute;
+        background-color: #424242;
+        top: 100px;
+        left: 0;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        z-index: 1;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .navbar-links li {
         margin-bottom: 10px;
     }
 
-    nav ul li a {
+    .navbar-links a {
         padding: 15px 20px;
+        display: block;
+        color: #fff;
+        text-decoration: none;
     }
 
-    .city-list li a {
-        padding: 15px 20px;
+    /* Additional styles for dropdown submenus */
+    .navbar-links .dropdown-content {
+        display: none;
+        flex-direction: column;
+        background-color: #78c5c5;
+        position: relative;
+        left: 100%;
+        top: 0;
+        width: 100%;
+        padding: 10px;
     }
 
-    .text p {
-        padding: 15px 20px;
+    .navbar-links .dropdown:hover .dropdown-content {
+        display: flex;
     }
 }
 /*________Home_________________________________________________________________________________ */
