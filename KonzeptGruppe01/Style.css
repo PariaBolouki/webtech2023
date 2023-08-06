@@ -82,6 +82,10 @@ header .logo img {
     font-size: 40px;
 }
 
+.explenationP{
+    padding-left: 35px;
+}
+
 .container img{
     width: 700px;
     height: 540px;
