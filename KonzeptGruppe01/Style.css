@@ -916,7 +916,7 @@ footer {
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 50px;
+        min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
@@ -926,18 +926,16 @@ footer {
         color: black;
         padding: 12px 12px;
         text-decoration: none;
-        font-size: 16px;
+        font-size: 12px;
         display: block;
       }
       
       
-      .dropdown-content a:hover {background-color: #ddd; }
+      .dropdown-content a:hover {background-color: #ddd;  block-size: auto; }
       
       
-      .dropdown:hover .dropdown-content {display: block; }
+      .dropdown:hover .dropdown-content {display: block;  }
       
-     
-      .dropdown:hover .dropbtn {background-color: #c3dfdf; transform: scale(1.9);}
 
 /* soziale netzwerke*/     
      .icon {
