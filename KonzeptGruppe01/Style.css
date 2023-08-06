@@ -387,6 +387,7 @@ span{
 
 .sight h2 {
     background-color: #8ACC8A;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     color: #000000;
     padding: 10px;
     margin-top: 40px;
@@ -419,11 +420,6 @@ span{
     top: 8px;
 }
 
-
-
-.sight a:hover {
-    text-decoration: underline;
-}
 /* ___________ Resturant ____________________________*/
 
 #restaurantinfo {
