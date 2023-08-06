@@ -1,0 +1,5 @@
+admin,admin@mail,$2y$10$.UuHg3sbI54oYUOMSij.1OG/tx8fJbkzZh83SHX33SDErpiKEtJlK,
+lexer,lexer@mail,$2y$10$CEswv/83fdQ631NPHKqzuOvSQfH1osZ7fIuQf9lSMWOsco4pPjihi,
+russi,russi@mail,$2y$10$oHTAK0KDYNFwTG8ihh6EnOQ68jlCiDAX0zkZFRq/Ce5bucWK8gvN6,
+ali,ali@pinar,$2y$10$vAi.BiUPJ5cb5CmFVRzwH.mfWi.bRSJt5.w7QUb7.zHVmd3owg8Wm,
+axel,axel@brates,$2y$10$Rd9MZMdsd9jTu.AXBBWVNOEC1TX/cBlm5.u6ia44GiCbdiYkgtZ4u,
