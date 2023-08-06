@@ -294,8 +294,9 @@ span{
 
 .mySlides,img {
     vertical-align: middle;
-    height: 600px;
-    border-radius: 30%;
+    height: 450px;
+    border-radius: 50%;
+    padding-bottom: 20px;
 
 
 
