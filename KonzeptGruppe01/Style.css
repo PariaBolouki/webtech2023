@@ -397,7 +397,7 @@ span{
 
 .sight li {
     margin-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
     position: relative;
     font-size: 18px;
     line-height: 1.4;
@@ -411,7 +411,8 @@ span{
     border-radius: 50%;
     position: absolute;
     left: 10px;
-    top: 8px;
+    right: 0px;
+    top: 4px;
 }
 
 /* ___________ Resturant ____________________________*/
