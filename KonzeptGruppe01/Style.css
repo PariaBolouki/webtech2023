@@ -865,7 +865,7 @@ input[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #7A9F7A;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -874,7 +874,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #567456;
 }
 
 textarea {
