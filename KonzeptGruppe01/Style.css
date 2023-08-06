@@ -37,7 +37,8 @@ nav ul {
 }
 
 nav ul li {
-    margin-right: 75px;
+    margin-right: 50px;
+    margin-left: 10px;
 }
 
 nav ul li a {
@@ -92,6 +93,7 @@ header .logo img {
         transform: translateY(-10px);
         transition: opacity 0.3s ease, transform 0.3s ease;
         z-index: 1;
+        
     }
 
     .navbar-links.active {
@@ -137,17 +139,23 @@ header .logo img {
 
 .explenation h1{
     font-size: 40px;
+    padding-right: 60px;
 }
 
 .explenationP{
     padding-left: 35px;
+    background-color: #d2ecd2;
+    width: 500px;
+    height: 390px;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-radius: 3%;
 }
 
 .container img{
     width: 700px;
-    height: 540px;
+    height: 550px;
     border-radius: 50%;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 } 
 
 .worldImg{
@@ -314,7 +322,6 @@ span{
     top: -50px;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 0 7px rgb(88, 86, 86);
 }
 /*_ _______ SIGHT _____________________________________*/
 /*________________________________________________________________ Slideshow */
