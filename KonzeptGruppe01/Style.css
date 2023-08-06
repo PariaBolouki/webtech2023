@@ -41,8 +41,10 @@ nav ul li a:hover {
 }
 
 header .logo img {
-    width: 125px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    padding-left: 60px;
+    padding-right: 30px;
 }
 
 /* Responsive */
