@@ -1071,3 +1071,46 @@ div.elem-group {
   button:hover {
     border: 2px solid black;
   }
+  @media (max-width: 768px) {
+    div.elem-group {
+        margin: 20px 0; 
+    }
+    
+    label {
+        font-size: 1em; 
+    }
+    
+    input, select, textarea {
+        width: 100%; 
+        padding: 6px;
+    }
+    
+    textarea {
+        height: 150px; 
+    }
+    
+    button {
+        height: 40px; 
+        font-size: 1em; 
+    }
+}
+
+/*google maps responsive*/
+.mapp {
+    overflow:hidden;
+    padding-bottom:75%;
+    position:relative;
+    height:0;
+}
+
+
+.mapp iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
